@@ -1,0 +1,27 @@
+*{
+    font-family: 'Montserrat',  sans-serif;
+}
+
+:root{
+    --white: rgb(244,244,244);
+    --balck: rgb(25,25,25);
+}
+
+.bg-white{
+    background-color: var(--white);
+}
+
+.bg-black{
+    background-color: var(--balck);
+}
+
+
+.text-white{
+    color: var(--white);
+}
+
+.text-black{
+    color: var(--balck);
+}
+
+
