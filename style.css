@@ -24,4 +24,18 @@
     color: var(--balck);
 }
 
+/* Navbar */
+.nav-link{
+    color:var(--white)
+}
+
+.nav-link:hover{
+    color: aqua;
+}
+
+.logo{
+    width: 60px;
+}
+
+
 
