@@ -4,7 +4,8 @@
 
 :root{
     --white: rgb(244,244,244);
-    --balck: rgb(25,25,25);
+    --black: rgb(25, 25, 25);
+    --acqua: rgb(120, 243, 247);
 }
 
 .bg-white{
@@ -12,7 +13,11 @@
 }
 
 .bg-black{
-    background-color: var(--balck);
+    background-color: var(--black);
+}
+
+.bg-acqua{
+    background-color: var(--acqua);
 }
 
 
@@ -21,7 +26,7 @@
 }
 
 .text-black{
-    color: var(--balck);
+    color: var(--black);
 }
 
 /* Navbar */
@@ -37,13 +42,50 @@
     width: 60px;
 }
 
-.navbar{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px 0;
-    z-index: 1000;
+
+/* Header */
+.header{
+    background-image: url(https://wallpaperaccess.com/thumb/2393032.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+
+.btn-Custom{
+   color: var(--black);
+   background-color: var(--white);
+   border: 1px solid var(--black);
+   border-radius: 5px;
+   margin: 10px;
+}
+
+.btn-Custom:hover{
+    color: var(--white);
+    background-color: var(--black)
+}
+
+
+/* Section1 */
+.col-custom{
+    padding: 10px;
+    border: 2px solid var(--black);
+    cursor: pointer;
+}
+
+.col-custom:hover{
+   transform: scale(1.1);
+}
+
+
+/* Section2 */
+
+.number{
+    font-size: 50px;
+    font-weight: 900px;
+}
+
+
+    
 
 
 
