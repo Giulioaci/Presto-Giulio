@@ -76,12 +76,37 @@
    transform: scale(1.1);
 }
 
+.positioned{
+    position: relative;
+    top: -100px
+}
+
 
 /* Section2 */
 
 .number{
     font-size: 50px;
     font-weight: 900px;
+}
+
+/* swiper */
+.swiper{
+    height: 600px;
+}
+
+.card-review{
+    height: 150px;
+    width: 400px;
+    border: 2px solid var(--black);
+    border-radius: 20px;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 

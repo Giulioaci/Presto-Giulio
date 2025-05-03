@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>Presto</title>
+  <!-- Swiperjs -->
+  <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,7 +61,7 @@
 
 
 <!-- Section1 -->
-<section class="container">
+ <section class="container positioned">
   <div class="row justify-content-center">
      <div class="col-10 col-md-4 bg-white d-flex flex-column  aling-items-center col-custom">
       <i class="fa-solid fa-desktop fa-5x"></i>
@@ -94,18 +96,70 @@
           <h3 class="text-center">I nostri numeri</h3>
 
           <p><span class="number" id="FirstNumber">0</span>Prodotti venduti</p>
-          <p><span class="number">0</span>Clienti soddisfatti</p>
-          <p><span class="number">0</span>Consegne giornaliere</p>
+          <p><span class="number" id="SecondNumber">0</span>Clienti soddisfatti</p>
+          <p><span class="number" id="ThirdNumber">0</span>Consegne giornaliere</p>
 
         </div>
       </div>
   </section>
   <!-- Section2 end -->
+
+  <!-- Section3 -->
+   <section class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8">
+            
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+           <div class="swiper-wrapper">
+            <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="card-review">
+              <p class="h7 text-center">Sito poco soddisfacente!</p>
+              <p class="h4 text-center">Carlo</p>
+              <div class="d-flex justify-content-center">
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-review">
+              <p class="h7 text-center">Buon sito!</p>
+              <p class="h4 text-center">Marco</p>
+              <div class="d-flex justify-content-center">
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card-review">
+              <p class="h7 text-center">Ottimo sito!</p>
+              <p class="h4 text-center">Luca</p>
+              <div class="d-flex justify-content-center">
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+                <i class="fa-sharp fa-solid fa-web-awesome"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+   </section>
+   <!-- Section3 end -->
   
  
   
   
   
+   
   
   
   
@@ -134,8 +188,8 @@
   
   
   
-  
-  
+  <!-- swiper js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <!-- fontawesome -->
   <script src="https://kit.fontawesome.com/1c86e29726.js" crossorigin="anonymous"></script>
   <!-- Bootstrap js -->
