@@ -136,6 +136,45 @@
     border-top-right-radius: 27px;
 }
 
+/* pagina Chi Siamo */
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.opener{
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    border: 2px solid var(--black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 3;
+    background-color: var(--acqua);
+    cursor: pointer;
+    
+}
+
+.moved{
+  transition: 0.5s;
+  height: 95px;
+  width: 95px;
+  border-radius: 50%;
+  border: 2px solid var(--black);
+  border: 3px solid var(--black);
+  background-color: black;
+  position: absolute
+}
+
 
     
 
