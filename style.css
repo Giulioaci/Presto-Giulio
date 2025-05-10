@@ -137,43 +137,57 @@
 }
 
 /* pagina Chi Siamo */
-.circle{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border: 3px solid var(--black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.card{
+    height: 255px;
+    width: 255px;
     
-}
-
-.opener{
-    height: 95px;
-    width: 95px;
-    border-radius: 50%;
-    border: 2px solid var(--black);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 3;
     background-color: var(--acqua);
-    cursor: pointer;
     
 }
 
-.moved{
-  transition: 0.5s;
-  height: 95px;
-  width: 95px;
-  border-radius: 50%;
-  border: 2px solid var(--black);
-  border: 3px solid var(--black);
-  background-color: black;
-  position: absolute
+.card:hover > .inner{
+    transform: rotateY(180deg);
 }
+
+
+.inner{
+    height: 100%;
+    width: 100%;
+    border: 2px solid var(--black);
+    border-radius: 20px;
+    position: relative;
+    transition: 0.5s;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+
+   
+}
+
+.innerface{
+    height: 250px;
+    width: 250px;
+    background-image: url(./media/89a1dd4e-96e3-413d-b2e8-a2df7e223e9b.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    
+}
+
+.innerback{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    text-align: center;
+    padding: 15px;
+    background-color: var(--white);
+}
+
 
 
     
