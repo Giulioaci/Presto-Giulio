@@ -123,17 +123,17 @@
 .card-custom{
     width: 30%;
     border: 3px solid var(--black);
-    border-radius: 30px;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .img-card{
-    border-top-left-radius: 27px;
-    border-top-right-radius: 27px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 /* pagina Chi Siamo */
@@ -187,6 +187,14 @@
     padding: 15px;
     background-color: var(--white);
 }
+
+@media screen and (max-width: 768px) {
+    .card-custom{
+       width: 45%;
+    }
+}
+
+
 
 
 
